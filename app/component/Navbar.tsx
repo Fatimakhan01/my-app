@@ -23,8 +23,8 @@ const Navbar = () => {
   </button>
 </form>
 
-    <button className='flex items-center gap-1 border px-4 py-2 rounded text-sm
-     bg-[#FFFFFF] text-[#3BB77E] shadow-md hover:shadow-lg transition whitespace-nowrap'>
+    <button className='flex items-center gap-1  px-4 py-2 rounded text-sm
+     bg-[#FFFFFF] text-[#3BB77E] border border-[#ECECEC] shadow-md hover:shadow-lg transition whitespace-nowrap'>
   Became Vendor
   <ArrowRight 
   size={20}
