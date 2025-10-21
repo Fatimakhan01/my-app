@@ -16,7 +16,9 @@ const FooterBanner = () => {
         <div className="flex items-center gap-6">
           <span className="flex flex-col items-center text-center">
             <span className="flex items-center gap-1">
-              <Phone size={18} className="text-[#7E7E7E]" />
+              <Phone 
+              size={18} 
+              className="text-[#7E7E7E]" />
               <span className="text-[#3BB77E] font-bold">1900646666</span>
             </span>
             <span className="text-xs text-[#7E7E7E]">Working 8:00-22:00</span>
@@ -24,7 +26,9 @@ const FooterBanner = () => {
 
           <span className="flex flex-col items-center text-center">
             <span className="flex items-center gap-1">
-              <Phone size={18} className="text-[#7E7E7E]" />
+              <Phone 
+              size={18} 
+              className="text-[#7E7E7E]" />
               <span className="text-[#3BB77E] font-bold">1900648888</span>
             </span>
             <span className="text-xs text-[#7E7E7E]">24/7 Support Center</span>
