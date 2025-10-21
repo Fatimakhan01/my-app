@@ -5,7 +5,8 @@ import { ArrowRight,RefreshCcw, Heart,ShoppingCart,User } from 'lucide-react';
 const Navbar = () => {
   return (
   <header className='w-full border-b border-[#DEDFE2] bg-white'>
-    <div className='max-w-[75rem] mx-auto h-[6.3rem]  flex items-center justify-between font-Lato gap-2'>
+    <div className='container mx-auto'>
+    <div className=' h-[6.3rem]  flex items-center justify-between font-Lato gap-2'>
         <div className='flex items-center gap-6 w-full'>
      <img
      src='/Nest.png'
@@ -87,7 +88,9 @@ const Navbar = () => {
 
  </nav>
    </div>
+   </div>
     </header>
+    
   )
 }
 

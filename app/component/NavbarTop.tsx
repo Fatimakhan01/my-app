@@ -5,7 +5,8 @@ import { ChevronDown } from 'lucide-react';
 const NavbarTop = () => {
   return (
     <header className='w-full border-b border-[#DEDFE2] bg-white'>
-  <div className='max-w-[75rem] mx-auto px-4 h-[2.5625rem] flex items-center 
+      <div className='container mx-auto'>
+  <div className=' px-4 h-[2.5625rem] flex items-center 
   justify-between text-sm font-Lato'>
 
       <nav>
@@ -37,7 +38,9 @@ const NavbarTop = () => {
          </button>
       </div>
     </div>
+    </div>
     </header>
+    
   )
 
   }

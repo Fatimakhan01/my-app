@@ -38,7 +38,8 @@ const features = [
 const Features = () => {
   return (
     <section className='w-full bg-white py-10'>
-      <div className='max-w-[75rem] mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 
+      <div className='container mx-auto'>
+      <div className=' grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 
       lg:grid-cols-5 gap-6 px-4'>
         {features.map((item) => (
           <div
@@ -58,7 +59,9 @@ const Features = () => {
           </div>
         ))}
       </div>
+      </div>
     </section>
+   
   );
 };
 

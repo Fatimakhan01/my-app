@@ -4,7 +4,8 @@ import {MapPin, Headphones, Mail, Clock} from 'lucide-react';
 const Footer = () => {
   return (
     <footer className='w-full bg-white text-[#253D4E] text-sm '>
-      <div className=' max-w-[75rem] mx-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6'>
+      <div className='container mx-auto'>
+      <div className=' grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6'>
         <div>
             <img
             src='/Nest.png'
@@ -93,13 +94,10 @@ const Footer = () => {
             />
           </ul>
         </div>
-
-
-
-
-
+      </div>
       </div>
     </footer>
+    
   )
 }
 

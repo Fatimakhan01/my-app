@@ -112,8 +112,8 @@ const categories = [
 ];
 const Products = () => {
   return (
-   
-    <section className='w-full max-w-[75rem] mx-auto  flex gap-6 items-start'>
+    <div className='container mx-auto'>
+    <section className='flex gap-6 items-start'>
       <div className='flex-1'>
       <div className='flex items-center justify-between mb-6'>
         <h2 className='text-xl font-bold text-[#253D4E]'>
@@ -159,7 +159,7 @@ const Products = () => {
      
     </section>
      
-    
+    </div>
   )
 }
 

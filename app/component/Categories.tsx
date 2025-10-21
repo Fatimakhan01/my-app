@@ -38,7 +38,8 @@ const Categories = () => {
 
   return (
     <header className='w-full bg-white'>
-      <div className='max-w-[75rem] mx-auto h-[4.375rem] flex items-center  font-Quicksand'>
+      <div className='container mx-auto'>
+      <div className=' h-[4.375rem] flex items-center  font-Quicksand'>
     
         <NavButton
           icon={<Grid2x2 size={22} className='text-white ' />}
@@ -47,7 +48,7 @@ const Categories = () => {
           active
         />
 
-        <div className='flex items-center gap-2'>
+        <div className='flex items-center gap-4.5'>
           {navItems.map((item, index) => (
             <NavButton
               key={index}
@@ -67,8 +68,10 @@ const Categories = () => {
           </div>
         </div>
       </div>
+      </div>
     </header>
-  );
-};
+    
+  )
+}
 
 export default Categories;
