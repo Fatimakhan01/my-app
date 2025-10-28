@@ -18,7 +18,7 @@ const Footer = () => {
             </li>
             <li className='flex items-center gap-2'>
                 <Headphones size={18} className='text-[#3BB77E]'/>
-                 Call us<li className='text-[#3BB77E]'> (+91)-540-025-124553</li>
+                 Call us<span className='text-[#3BB77E]'> (+91)-540-025-124553</span>
             </li>
             <li className='flex items-center gap-2'>
                 <Mail size={18} className='text-[#3BB77E]'/>
